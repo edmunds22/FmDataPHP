@@ -1,0 +1,21 @@
+{
+    "name": "edmunds22/fmdataphp",
+    "description": "FmDataPHP - Interface for the FileMaker Data API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "William Edmunds",
+            "email": "will@wpedmunds.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "edmunds22\\fmdataphp\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    }
+}
